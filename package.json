@@ -1,0 +1,11 @@
+{
+  "name": "sure-auto-insurance",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "axios": "^0.19.1",
+    "localforage": "^1.7.3"
+  },
+  "scripts": {}
+}
