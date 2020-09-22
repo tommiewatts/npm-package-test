@@ -10,7 +10,11 @@ export function printFromPackage() {
     "SURE-AUTO-INSURANCE: REACT_APP_TESTING_THIS is",
     process.env.REACT_APP_TESTING_THIS
   );
-  times(10, () => console.log("Hello from package once more"));
+  times(10, () =>
+    console.log(
+      "SURE-AUTO-INSURANCE: Hello from package once more, should not work like this right?"
+    )
+  );
 }
 
 export function testApiCall() {
