@@ -1,13 +1,5 @@
-import printFromPackage from "./printFromPackage";
-import printName from "./printMyName";
-import testing from "./services/testing";
+import _printMyName from "./printMyName";
 
-export function testPrint() {
-  printFromPackage();
+export function printMyName(name) {
+  _printMyName(name);
 }
-
-export default {
-  newPrint: printFromPackage,
-  printMyName: printName,
-  testing: testing,
-};
