@@ -12,6 +12,7 @@
     "rollup": "^2.32.1"
   },
   "scripts": {
+    "prepare": "rollup -c",
     "build": "rollup -c"
   },
   "files": [
