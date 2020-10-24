@@ -8,4 +8,4 @@ function printFromPackage() {
   );
 }
 
-export default printFromPackage;
+export default { printFromPackage };
