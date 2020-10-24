@@ -1,11 +1,20 @@
 {
   "name": "sure-auto-insurance",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "lodash": "^4.17.15",
-    "axios": "^0.19.1",
-    "localforage": "^1.7.3"
+    "rollup": "^2.32.1"
   },
-  "scripts": {}
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ]
 }
