@@ -1,4 +1,7 @@
 import printFromPackage from "./printFromPackage";
 
-export * from "./printFromPackage";
-export * from "./printMyName";
+import { printFromPackage } from "./printFromPackage";
+
+export default {
+  printFromPackage,
+};

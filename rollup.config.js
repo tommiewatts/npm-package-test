@@ -7,7 +7,7 @@ const rollupPackage = [
   {
     input: "src/index.js",
     output: {
-      name: "printFromPackage",
+      name: "index",
       file: pkg.browser,
       format: "umd",
     },
