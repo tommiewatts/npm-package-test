@@ -1,3 +1,7 @@
-import printFromPackage from "./printFromPackage";
+import printName from "./printMyName";
+import testing from "./services/testing";
 
-export * from ".printFromPackage";
+export default {
+  printMyName: printName,
+  testing: testing,
+};
