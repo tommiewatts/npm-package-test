@@ -1,5 +1,5 @@
-import _printMyName from "./printMyName";
+import testing from "./services/testing";
 
 export function printMyName(name) {
-  _printMyName(name);
+  testing();
 }
